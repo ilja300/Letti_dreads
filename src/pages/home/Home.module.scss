@@ -1,0 +1,25 @@
+.home {
+  padding-top: 100px;
+}
+.more {
+  a {
+    width: 100px;
+    height: 45px;
+    background-color: #008bf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+}
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+  height: 800px;
+  background-repeat: no-repeat;
+}
