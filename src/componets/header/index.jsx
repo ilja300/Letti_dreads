@@ -18,7 +18,7 @@ export function Header() {
 
       <div className={styles.logo}>
         <h1>Letti</h1>
-        <img src="image_no_bg__1_-removebg-preview.png" alt="logo" />
+        <img src="/image_no_bg__1_-removebg-preview.png" alt="logo" />
         <h1>Dreads</h1>
       </div>
 
