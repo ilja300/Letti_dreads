@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import { Header } from "./componets";
-import { Home } from "./pages";
+import { Header, Footer } from "./componets";
+import { Home, Shop, Contacts } from "./pages";
 
 function App() {
   return (
@@ -9,7 +9,9 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/shop/:id" element={<Shop />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

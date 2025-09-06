@@ -5,21 +5,45 @@
   a {
     width: 100px;
     height: 45px;
-    background-color: #008bf8;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
+  position: absolute;
+  top: 500px;
 }
 .slider {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 150px;
-  height: 800px;
+  height: 632px;
   background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  h2 {
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+    font-weight: 600;
+    position: absolute;
+    top: 400px;
+  }
+}
+.popularSets {
+  padding: 30px 20px;
+  h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+  .setsList {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+  }
 }

@@ -1,0 +1,21 @@
+.setItem {
+  display: flex;
+  aspect-ratio: 250 / 410;
+  width: 100%;
+  background-color: #ffffff;
+  justify-content: space-around;
+  flex-direction: column;
+  h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 90%;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
